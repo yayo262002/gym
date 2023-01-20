@@ -1,0 +1,59 @@
+.todo-proteina{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    color: white;
+    margin: 30px;
+    width: 82%;
+    background-color: transparent !important;
+    margin-bottom: 100px;
+    text-align: center;
+   
+    img{
+        height: 221px;
+        width: 100%;
+    }
+    h2{
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    a{
+        text-decoration: none;
+    }
+}
+@media (min-width: 700px) {
+    .card{
+     width: 280px
+    }
+}
+.oferta-mv{
+    color: red;
+}
+.oferta-mv-abajo{
+    color: grey;
+    margin-top: -7px;
+    margin-bottom: -3px;
+}
+
+.comprarapida{
+    background-color: rgb(142, 142, 142);
+    position: absolute;
+    color: rgb(255, 255, 255);
+    margin-top: 199px; 
+}
+
+.nombre-mv{
+    font-size: 21px;
+    text-align: center;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+   
+}

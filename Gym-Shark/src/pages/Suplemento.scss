@@ -1,0 +1,36 @@
+.nav-home-ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style:none;
+    align-content: center;
+    flex-wrap: wrap;
+    padding: 0px;
+   
+    :hover{
+        color:rgb(52, 91, 98);
+       
+    }
+    
+     :active{
+        color: rgb(12, 21, 65);
+       
+    }
+    a{
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        
+        }
+        li{
+            background-color: rgb(114, 109, 73);
+            width: 35%;
+            text-align: center;
+            font-size: 15px;
+            height: 45px;
+            margin: 20px;
+        }
+}
+.todo-suplemento{
+    background-color: black;
+    justify-content: center;
+}
